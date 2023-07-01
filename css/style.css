@@ -46,6 +46,25 @@ a{
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
+
+#artigos article{
+    background-color: white;
+    margin-right: 3%;
+    border-radius: 13px;
+}
+
+#artigos li{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#artigos img{
+    width: 30em;
+    margin-top: -2%;
+}
+
 .list_artigos{
     list-style-type: none;
 }
