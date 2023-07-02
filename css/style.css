@@ -30,6 +30,7 @@ a{
 }
 
 .links_artigos{
+    font-size: 1vw;
     width: 10vw;
     margin: 0 auto;
 }
@@ -46,6 +47,9 @@ a{
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
+#artigos{
+    font-size: 1vw;
+}
 
 #artigos article{
     background-color: white;
@@ -57,30 +61,42 @@ a{
     margin-left: 1%;
     margin-right: 1%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 #artigos img{
-    width: 30em;
+    width: 30vw;
     margin-top: -2%;
 }
 
 .list_artigos{
     list-style-type: none;
+    font-size: 1vw;
+}
+
+#not_recentes{
+    font-size: 0.90vw;
 }
 
 .list_autores{
     text-align: justify;
+    font-size: 0.90vw;
 }
 
 #fast_news{
     background-color: aliceblue;
     border-radius: 1em;
+    font-size: 0.90vw;
 }
 
 #fast_news section{
     margin-left: 1%;
     margin-right: 3%;
+}
+
+.videos{
+    width: 19.5vw;
+    height: 20vh;
 }
 
 footer fieldset{
@@ -89,15 +105,20 @@ footer fieldset{
     text-align: center;
 }
 
-footer h4{
-    color: aliceblue;
-    text-shadow: 0.1em 0.1em 0.2em black;
-
+main h4{
+    margin-bottom: 0vh;
 }
 
-.direitos{
+footer h4{
+    color: aliceblue;
+    font-size:  1vw;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#direitos{
     color: white;
     font-weight: bolder ;
+    font-size: 0.88vw;
 }
 
 .redes_sociais{
@@ -110,37 +131,63 @@ footer h4{
 }
 
 
+/* PÁGINAS DOS ARTIGOS */
+
+.main_noticias{
+    text-align: center;
+}
+.img_noticias{    
+    width: 40%;
+}
+.article_noticias{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-radius: 2em;   
+}
+.article_noticias p{
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.img_autor{
+    width: 10%;
+    height:10em;
+    border-radius: 50%;
+}
+
+
+/* FORMULÁRIO */
+.formulario{
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.field_form{
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: coral;
+}
 
 /* 
-OK      O site de notícias deve ter uma página inicial que exiba uma lista de artigos recentes (min. de 10), cada um contendo um título, uma breve descrição e uma imagem representativa.
-
-    Cada artigo na lista deve ser clicável e redirecionar para uma página individual do artigo, exibindo o título, a imagem, o conteúdo completo, autor e a data de publicação.
-
-OK      O site deve incluir uma barra de navegação no topo, contendo links para as seções principais do site, como "Notícias Locais", "Política", "Esportes" e "Entretenimento".
-
-OK      Na página inicial, deve haver uma tabela que exiba as notícias mais populares da semana (min. de 10), com colunas para o título, a data e o número de visualizações.
-
-OK      Todas as páginas devem incluir um rodapé com informações de direitos autorais, links para as redes sociais e página de contato.
-
     (Desafio) O site deve aplicar as tags Open Graph para melhorar a experiência de compartilhamento em redes sociais, incluindo meta tags como título, descrição e imagem específicas para cada artigo.
 
-OK      (Desafio) Na página inicial, deve ter uma seção "Assista em vídeo", com vídeos de noticias recentes (min. de 5). Para isso utilize o recurso de incorporação de vídeo do YouTube.
+    O site deve ter uma página de contato, contendo um formulário de contato com campos para nome, e-mail, assunto e mensagem.
 
-OK      Na página inicial, deve ter uma lista de classificação dos melhores autores de notícias(min. de 8), exibindo os nomes e a quantidade de artigos publicados por cada autor.
+    O formulário de contato deve incluir uma lista suspensa com opções de assuntos de contato, permitindo que o usuário selecione o assunto apropriado.
 
-O site deve ter uma página de contato, contendo um formulário de contato com campos para nome, e-mail, assunto e mensagem.
-
-O formulário de contato deve incluir uma lista suspensa com opções de assuntos de contato, permitindo que o usuário selecione o assunto apropriado.
-
-Certifique-se de que todas as páginas estejam adequadamente conectadas por meio de hiperlinks, permitindo que o usuário navegue entre as diferentes notícias.
-
-A página principal deve incluir links internos de navegação usando âncoras para permitir que os usuários acessem rapidamente seções específicas dentro da mesma página.
-
-O layout do site deve ser construído utilizando apenas as tags e elementos HTML.
-
-Observações:
-    O design e a estrutura do site devem ser criados exclusivamente com as tags e elementos HTML disponíveis.
-
-    O código-fonte do projeto deve estar organizado, identado e legível.
-
-    Seja criativo ao desenvolver o layout e aproveite ao máximo as possibilidades do HTML para alcançar os requisitos. */
+/* 
+Miles Morales, (33 Artigos) 27.06.2023
+Barry Allen, (30 Artigos) 22.06.2023
+Tony Stark, (29 Artigos) 18.06.2023
+Kimiko Miyashiro, (27 Artigos) 10.06.2023
+Anonymous, (27 Artigos) 29.05.2023
+Zenitsu Agatsuma, (23 Artigos) 22.05.2023
+Nezuko Kamado, (20 Artigos) 21.05.2023
+Thomas Shelby (17 Artigos) 17.05.2023
+Penelope Charmosa, (13 Artigos) 13.05.2023
+Soldier Boy, (7 Artigos)13.03.2023
+ */
